@@ -24,7 +24,6 @@ This project was developed for the **EEE411L: VLSI Design Laboratory** course (S
 6. [RTL Synthesis Results (Cadence)](#-rtl-synthesis-results-cadence)
 7. [Physical Design & Layout (Innovus)](#-physical-design--layout-innovus)
 8. [Directory Structure](#-directory-structure)
-9. [How to Run Simulation](#-how-to-run-simulation)
 
 ---
 
@@ -201,26 +200,4 @@ digital-alarm-clock/
 │   └── assets/                           # Waveforms, schematics & layout images
 ├── .gitignore
 └── README.md
-```
-
----
-
-## 🚀 How to Run Simulation
-
-### Option A: Using Icarus Verilog & GTKWave
-```bash
-# Compile and run the top-level testbench
-iverilog -o sim_top rtl/clock_module.v rtl/alarm_comparator.v rtl/top_module.v tb/top_module_tb.v
-vvp sim_top
-
-# View waveforms
-gtkwave top_module_tb.vcd
-```
-
-### Option B: Using AMD Vivado
-```bash
-# Run batch simulation in Vivado
-xvlog rtl/*.v tb/top_module_tb.v
-xelab top_module_tb -s top_sim
-xsim top_sim -R
 ```
