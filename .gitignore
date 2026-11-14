@@ -1,0 +1,26 @@
+# EDA Simulation outputs
+*.vcd
+*.shm/
+shm.db/
+*.log
+*.key
+*.vpd
+*.fsdb
+*.jou
+*.pb
+
+# Tool-specific working directories
+INCA_libs/
+xcelium.d/
+simv*
+csrc/
+.simvision/
+innovus.log*
+innovus.cmd*
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/

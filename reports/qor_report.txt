@@ -1,0 +1,19 @@
+================================================================================
+Cadence RTL Compiler / Genus Synthesis: Quality of Result (QoR) Report
+Top Module : top_module
+Design Rule / Timing Constraints Status
+================================================================================
+
+Metric                              Value
+--------------------------------------------------------------------------------
+Clock Period                        10,000 ps (10.00 ns / 100 MHz)
+Critical Path Slack                 +7,253 ps (+7.253 ns, MET)
+Total Negative Slack (TNS)          0.0 ps
+Sequential Instances                17
+Combinational Instances             93
+Total Leaf Instances                110
+Cell Area                           237.35 um^2
+Max Fanout                          17 (clk net)
+Avg Fanout                          2.2
+Design Rule Violations (DRV)        0
+================================================================================

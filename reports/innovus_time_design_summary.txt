@@ -1,0 +1,24 @@
+================================================================================
+Cadence Innovus Physical Design: Time Design & DRC Summary
+Design: top_module
+Stage: Post-Route / Final Verification
+================================================================================
+
+# Start DRC checking..
+# number of violations = 0
+# cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1339.90 (MB), peak = 1395.45 (MB)
+# CELL_VIEW top_module,init has 0 DRC violations
+# Total number of DRC violations = 0
+# Total number of process antenna violations = 0
+# Total number of net violated process antenna rule = 0
+# Total number of violations on LAYER Metal1 = 0
+# Total number of violations on LAYER Metal2 = 0
+# Total number of violations on LAYER Metal3 = 0
+# Total number of violations on LAYER Metal4 = 0
+# Total number of violations on LAYER Metal5 = 0
+# Total number of violations on LAYER Metal6 = 0
+# Total number of violations on LAYER Metal7 = 0
+# Total number of violations on LAYER Metal8 = 0
+# Total number of violations on LAYER Metal9 = 0
+# Final Clean DRC Status: 0 Violations (Clean Sign-off)
+================================================================================

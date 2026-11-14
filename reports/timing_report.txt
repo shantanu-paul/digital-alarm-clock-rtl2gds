@@ -1,0 +1,17 @@
+================================================================================
+Cadence RTL Compiler / Genus Synthesis: Timing Path Report
+Top Module : top_module
+Path Type  : Max (Setup) Path
+================================================================================
+
+Parameter              Value
+--------------------------------------------------------------------------------
+Starting Point         alarm_hr[3] (input port)
+Endpoint               alarm (output port)
+Required Time          8990 ps
+Data Path Delay        737 ps
+Final Arrival Time     1737 ps
+Slack                  +7253 ps (TIMING MET)
+================================================================================
+Timing Status: Setup timing cleanly met with +7.253 ns positive slack margin.
+================================================================================

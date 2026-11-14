@@ -1,0 +1,19 @@
+================================================================================
+Cadence RTL Compiler / Genus Synthesis: Area Report
+Top Module : top_module
+Technology : PVT_0P9V_125C Standard Cell Library
+Wireload   : Enclosed
+================================================================================
+
+Instance Count Summary:
+--------------------------------------------------------------------------------
+Sequential Instances     : 17
+Combinational Instances  : 93
+Total Leaf Instances     : 110
+
+Area Summary:
+--------------------------------------------------------------------------------
+Cell Area                : 237.35 um^2
+Net Area                 : 0.00 um^2
+Total Area               : 237.35 um^2
+================================================================================
