@@ -25,7 +25,6 @@ This project was developed for the **EEE411L: VLSI Design Laboratory** course (S
 7. [Physical Design & Layout (Innovus)](#-physical-design--layout-innovus)
 8. [Directory Structure](#-directory-structure)
 9. [How to Run Simulation](#-how-to-run-simulation)
-10. [Team Members](#-team-members)
 
 ---
 
@@ -225,27 +224,3 @@ xvlog rtl/*.v tb/top_module_tb.v
 xelab top_module_tb -s top_sim
 xsim top_sim -R
 ```
-
-### Option C: Using Cadence Xcelium / NC-Verilog
-```bash
-xmverilog +access+rwc +define+CADENCE rtl/*.v tb/top_module_tb.v
-simvision shm.db &
-```
-
----
-
-## 👥 Team Members
-
-**Group 02 — Section 01 (Summer 2025)**  
-*Department of Electrical and Electronic Engineering*
-
-- **Tonmoy Paul** (ID: 22121049)
-- **Tanjim Haque** (ID: 22121050)
-- **Ayon Das** (ID: 22121107)
-- **Shantanu Paul** (ID: 22121007)
-- **Psyche Akonjee** (ID: 22121090)
-
----
-
-## 📄 License & Attribution
-The presentation deck and project materials are created for academic demonstration as part of the **EEE411L: VLSI Design Laboratory** curriculum. The original Google Slides presentation is archived as a PDF in [`docs/Design_of_a_Digital_Alarm_Clock_EEE411L.pdf`](docs/Design_of_a_Digital_Alarm_Clock_EEE411L.pdf).
